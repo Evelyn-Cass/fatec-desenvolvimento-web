@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Hardware</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/style_form.css">
+</head>
+
+<body>
+    <header>
+        <h1>Loja de Hardware</h1>
+        <menu>
+            <li>
+                <a class="menu_a" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="menu_a" href="loja.html">Loja</a>
+            </li>
+            <li>
+                <a class="menu_a" href="formulario.html">Cadastro</a>
+            </li>
+            <li>
+                <a class="menu_a" href="sobre.html">Sobre nós</a>
+            </li>
+            <li>
+                <a class="menu_a" href="contato.html">Fale conosco</a>
+            </li>
+        </menu>
+    </header>
+
+    <main>
+        <h4>Envie sua mensagem</h4>
+        <h5>Preencha o formulário abaixo que iremos retornar o seu contato</h5>
+        <form class="form_contato" action="outra_pagina.html" method="get">
+            <fieldset>
+                <input type="text" name="txt_nome" placeholder="Nome*" required />
+                <input type="email" name="txt_email" placeholder="E-mail*" required />
+                <input type="number" name="txt_telefone" placeholder="Telefone*" required />
+                <textarea name="txt_conteudo" cols="30" rows="10" placeholder="Message*" required></textarea>
+                <input type="checkbox" name="ckbox_concordo" required><label class="label-50">Declaro que estou ciente
+                    do envio do formulário conforme a Política de Privacidade.</label>
+            </fieldset>
+            <p class="center">
+                <button type="submit" class="botao-enviar">Enviar</button>
+                <button type="reset">Limpar</button>
+            </p>
+        </form>
+    </main>
+
+
+</body>
+
+</html>
