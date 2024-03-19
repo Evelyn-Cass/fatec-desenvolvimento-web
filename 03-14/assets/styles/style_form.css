@@ -66,11 +66,54 @@ button:hover {
 button:active {
     background-color: #666;
 }
-.botao-enviar{
+
+.botao-enviar {
     background-color: greenyellow;
 }
-.form_contato{
-    width: 80%;
-    justify-self: center;
-    align-self: center;
+
+.main_contato {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+textarea {
+    width: 600px;
+    resize: none;
+    display: block;
+
+}
+
+textarea:focus {
+    outline-color: yellow;
+    background-color: lightyellow;
+}
+
+.form_contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_concordo {
+    display: flex;
+
+}
+
+.fieldset_contato {
+    width: 600px;
+}
+
+.label_declaro {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: normal ;
+
+}
+
+.checkbox {
+
+    width: 20px;
+
 }
