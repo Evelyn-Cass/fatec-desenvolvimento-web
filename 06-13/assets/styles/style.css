@@ -38,7 +38,7 @@ thead {
 
 #lista-contatos table td img {
     width: 70px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 50%;
 }
 
@@ -67,7 +67,7 @@ thead {
 }
 
 #formulario-cadastro-contato fieldset {
-    background: pink;
+    background: rosybrown;
     border: 1px solid white;
     border-radius: 30px;
     padding: 3%;
@@ -92,7 +92,7 @@ thead {
 
 #formulario-cadastro-contato ul img {
     width: 70px;
-    border: 1px solid white;
+    border: 2px solid white;
     background: #fff;
     cursor: pointer;
     border-radius: 50%;
@@ -127,10 +127,11 @@ thead {
 
 
 .avatares{
-    background: transparent !important;
     border-radius: 310px;
     border-color: white !important; ;
     margin: 3vh 0;
+    border: 2px  solid white !important;
+    background: #ba9e9e !important;
 }
 
 ul{
